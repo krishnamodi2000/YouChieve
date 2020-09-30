@@ -1,0 +1,19 @@
+@import 'main.css';
+
+body { background: #000000 }
+
+
+img{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 300px;
+	width: 300px;
+
+}
+
+.zoom{
+		transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

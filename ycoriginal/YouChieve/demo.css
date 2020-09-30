@@ -1,0 +1,24 @@
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	background: url(https://images.unsplash.com/photo-1596100829662-c53560fb3c3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80);
+	/*background-size: cover;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+html{
+	height: 70%;
+	width: 100%;
+}
+.jumbotron{
+	text-align: center;
+	font-size: 40px;
+	color:white;
+	background-color: rgba(0,0,0,0.4)
+}
+.our_bg{
+	margin-top: 50%;
+	color:blue;
+	background-color: beige;
+}

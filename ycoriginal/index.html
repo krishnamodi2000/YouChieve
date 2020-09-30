@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+    <head>
+    	<!-- meta charec set -->
+        <meta charset="utf-8">
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- Page Title -->
+        <title>YouChieve</title>
+
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Google Font -->
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- Twitter Bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- jquery.fancybox  -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+		<!-- animate -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+		<!-- media-queries -->
+        <link rel="stylesheet" href="css/media-queries.css">
+s
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript">
+        	$(function () {
+				  $(document).scroll(function () {
+				    var $nav = $(".navbar-collapse");
+				    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+				  });
+				});
+        </script>
+
+    </head>
+
+    <body id="body">
+
+		<!--
+        Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+					<!-- /responsive nav button -->
+
+					<!-- logo -->
+                    <a class="navbar-brand" href="#body">
+						<h2 id="logo">
+							<img src="img/logo.png" height="50px" width="200px">
+						</h2>
+					</a>
+					<!-- /logo -->
+                </div>
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="current"><a href="#body">Home</a></li>
+                        <li><a href="#features">About</a></li>
+                        <li><a href="#works">Work</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="http://google.com">Contact</a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+
+
+
+        <!--
+        Home Slider
+        ==================================== -->
+
+		<section id="slider">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+				<!-- Indicators bullet -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				</ol>
+				<!-- End Indicators bullet -->
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+
+					<!-- single slide -->
+					<div class="item active" style="background-image: url(img/ki.jpg);">
+						<div class="carousel-caption">
+							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated"><img src="img/logo.png" height="150px" width="550px"></h2>
+							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/varied</span> content from.</h3>
+							<p data-wow-duration="1000ms" class="wow slideInRight animated">Motivation &middot; Infotainment &middot; Culture &middot; Sports &middot; Travel &middot; Anything and Everything</p>
+							<ul class="social-links text-center">
+								<li><a href="https://bit.ly/32qJIaM"><i class="fa fa-instagram fa-lg"></i></a></li>
+								<li><a href="https://bit.ly/3jUBPR7"><i class="fa fa-facebook fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-linkedIn fa-lg"></i></a></li>
+
+							</ul>
+						</div>
+					</div>
+					<!-- end single slide -->
+
+					<!-- single slide -->
+					<div class="item" style="background-image: url(img/ki.jpg);">
+						<div class="carousel-caption">
+							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated"><img src="img/logo.png" height="150px" width="550px"></h2>
+							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/varied</span> one content from.</h3>
+							<p data-wow-duration="1000ms" class="wow slideInRight animated">Motivation &middot; Infotainment &middot; Culture &middot; Sports &middot; Travel &middot; Anything and Everything</p>
+
+							<ul class="social-links text-center">
+								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+							</ul>
+						</div>
+					</div>-->
+					<!-- end single slide -->
+
+				</div>
+				<!-- End Wrapper for slides -->
+
+			</div>
+		</section>
+
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+
+        <!--
+        Features
+        ==================================== -->
+
+		<section id="features" class="features background">
+			<div class="container" >
+				<div class="row">
+
+					<div class="embed-responsive embed-responsive-4by3" style="margin-bottom:-4%">
+  						<video controls autoplay style="max-height:500px;" >
+					      	<source width="5" height="12" src="video.mp4" type=video/mp4>
+					    </video>
+					</div>
+
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="service-item">
+							<div class="service-icon">
+								<i class="fa fa-eye fa-2x"></i>
+							</div>
+
+							<div class="service-desc">
+								<h1>Vision</h1>
+								<h3><b>To spread content and connect youth vibrating at the same frequencies</b></h3>
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+					<div class="col-md-4">
+					</div>
+
+
+					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
+						<div class="service-item">
+							<div class="service-icon">
+								<i class="fa fa-bolt fa-2x"></i>
+							</div>
+
+							<div class="service-desc">
+								<h1>Mission</h1>
+								<h3><b>To elicit the right experience for you through engaging with the world around us</b></h3>
+							</div>
+						</div>
+					</div>
+
+					<!-- service item -->
+
+					<!-- end service item -->
+
+				</div>
+			</div>
+		</section>
+
+        <!--
+        End Features
+        ==================================== -->
+        <!--
+        Our Works
+        ==================================== -->
+
+		<section id="works" class="works clearfix">
+			<div class="container">
+				<div class="row">
+
+					<div class="sec-title text-center">
+						<h2>Works</h2>
+						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+					</div>
+
+					<div class="sec-sub-title text-center">
+						<p>more content </p>
+					</div>
+
+					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+						<ul class="text-center">
+							<li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
+							<li><a href="javascript:;" data-filter=".sports" class="filter">Branding</a></li>
+							<li><a href="javascript:;" data-filter=".beauty" class="filter">web</a></li>
+							<li><a href="javascript:;" data-filter=".logo-design" class="filter">logo design</a></li>
+							<li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+      <div class="project-wrapper">
+
+    			<div class="mix"><a href="genfin.html#humour" target="_blank">
+    					<img src="img\images\HUMoUR.jpg" alt="humour" class="genre">
+    					<figcaption class="overlay">
+    						<h4>Humour</h4>
+    					</figcaption></a>
+    				</div><!--
+
+    			!--><div class="mix"><a href="genfin.html#sports" target="_blank">
+    					<img src="img\images\IPL.jpg" alt="Sports" class="genre">
+    					<figcaption class="overlay">
+    						<h4>Sports</h4>
+    					</figcaption></a>
+    				</div><!--
+
+    			!--><div class="mix"><a href="genfin.html#awarness" target="_blank">
+    					<img src="img\images\facts.jpg" alt="awarness" class="genre">
+    					<figcaption class="overlay">
+    						<h4>Awarness</h4>
+    					</figcaption></a>
+    			</div><!--
+
+        !--><div class="mix"><a href="genfin.html#news" target="_blank">
+    					<img src="img\images\NEWS (1).jpg" alt="News" class="genre" >
+    					<figcaption class="overlay">
+    						<h4>News</h4>
+    					</figcaption></a>
+    				</div><!--
+
+    			!--><div class="mix"><a href="genfin.html#mindframers" target="_blank">
+    					<img src="img\images\Debate.jpg" alt="Mind Framers" class="genre">
+    					<figcaption class="overlay">
+    						<h4>Mind Framers</h4>
+    					</figcaption></a>
+    				</div><!--
+
+    			!--><div class="mix"><a href="genfin.html#infoainment" target="_blank">
+    					<img src="img\images\international.jpg" alt="Infotainment" class="genre">
+    					<figcaption class="overlay">
+    						<h4>Infotainment</h4>
+    					</figcaption></a>
+    				</div><!--
+
+    			!--><div class="mix"><a href="genfin.html#ukg" target="_blank">
+    					<img src="img\images\lifestyle.jpg" alt="UKG" class="genre">
+    					<figcaption class="overlay">
+          			<h4>Underrated Khel Gaye</h4>
+    					</figcaption></a>
+    				</div>
+
+    			</div>
+
+
+		</section>
+
+        <!--
+        End Our Works
+        ==================================== -->
+
+        <!--
+        Meet Our Team
+        ==================================== -->
+
+		<section id="team" class="team">
+			<div class="container">
+				<div class="row">
+
+					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+						<h2>Meet Our Team</h2>
+						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+					</div>
+
+					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+						<p>more content</p>
+					</div>
+
+					<!-- single member -->
+					<!-- Start popular-post Area -->
+			<section class="popular-post-area pt-100">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="active-popular-post-carusel">
+							<div class="single-popular-post d-flex flex-row">
+								<div class="thumb">
+									<img class="img-fluid" src="img/p1.png" alt="">
+									<a class="btns text-uppercase" href="#">view job post</a>
+								</div>
+								<div class="details">
+									<a  href="#"><h4>Creative Designer</h4></a>
+
+									<p style="padding-top:12px">
+                    <a href="http://localhost:82/you-chieve-master/form.php" target="_blank">
+		<button style="background-color:#4dffdb; border-radius: 8px; padding:10px; font-size: 15px;">Button</button>
+</a>
+									</p>
+								</div>
+							</div>
+							<div class="single-popular-post d-flex flex-row">
+								<div class="thumb">
+									<img src="img/p2.png" alt="">
+									<a class="btns text-uppercase" href="#">view job post</a>
+								</div>
+								<div class="details">
+									<a href="#"><h4>Creative Designer</h4></a>
+
+									<p style="padding-top:12px">
+                    <a href="http://localhost:82/you-chieve-master/form.php" target="_blank">
+		<button style="background-color:#4dffdb; border-radius: 8px; padding:10px; font-size: 15px;">Button</button>
+</a>
+									</p>
+								</div>
+							</div>
+							<div class="single-popular-post d-flex flex-row">
+								<div class="thumb">
+									<img src="img/p1.png" alt="">
+									<a class="btns text-uppercase" href="#">view job post</a>
+								</div>
+								<div class="details">
+									<a href="#"><h4>Creative Designer</h4></a>
+
+									<p style="padding-top:12px">
+                    <a href="http://localhost:82/you-chieve-master/form.php" target="_blank">
+		<button style="background-color:#4dffdb; border-radius: 8px; padding:10px; font-size: 15px;">Button</button>
+</a>
+									</p>
+								</div>
+							</div>
+							<div class="single-popular-post d-flex flex-row">
+								<div class="thumb">
+									<img src="img/p2.png" alt="">
+									<a class="btns text-uppercase" href="#">view job post</a>
+								</div>
+								<div class="details">
+									<a href="#"><h4>Creative Designer</h4></a>
+
+									<p style="padding-top:12px">
+                    <a href="http://localhost:82/you-chieve-master/form.php" target="_blank">
+		<button style="background-color:#4dffdb; border-radius: 8px; padding:10px; font-size: 15px;">Button</button>
+</a>
+									</p>
+								</div>
+							</div>
+							<div class="single-popular-post d-flex flex-row">
+								<div class="thumb">
+									<img src="img/p1.png" alt="">
+									<a class="btns text-uppercase" href="#">view job post</a>
+								</div>
+								<div class="details">
+									<a href="#"><h4>Creative Designer</h4></a>
+
+									<p style="padding-top:12px">
+                    <a href="http://localhost:82/you-chieve-master/form.php" target="_blank">
+		<button style="background-color:#4dffdb; border-radius: 8px; padding:10px; font-size: 15px;">Button</button>
+</a>
+									</p>
+								</div>
+							</div>
+							<div class="single-popular-post d-flex flex-row">
+								<div class="thumb">
+									<img src="img/p2.png" alt="">
+									<a class="btns text-uppercase" href="#">view job post</a>
+								</div>
+								<div class="details">
+									<a href="#"><h4>Creative Designer</h4></a>
+
+									<p style="padding-top:12px">
+                    <a href="http://localhost:82/you-chieve-master/form.php" target="_blank">
+                    <button style="background-color:#4dffdb; border-radius: 8px; padding:10px; font-size: 15px;">Button</button>
+                    </a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End popular-post Area -->
+					<!-- end single member -->
+
+				</div>
+			</div>
+		</section>
+
+        <!--
+        End Meet Our Team
+        ==================================== -->
+
+		<!--
+        Some fun facts
+        ==================================== -->
+
+		<section id="facts" class="facts">
+			<div class="parallax-overlay">
+				<div class="container">
+					<div class="row number-counters">
+
+						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+							<h2>Some Fun Facts</h2>
+							<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+						</div>
+
+						<!-- first count item -->
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+							<div class="counters-item">
+								<i class="fa fa-clock-o fa-3x"></i>
+								<strong data-to="336">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Hours of Work</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+							<div class="counters-item">
+								<i class="fa fa-users fa-3x"></i>
+								<strong data-to="807">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Number of followers</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+							<div class="counters-item">
+								<i class="fa fa-rocket fa-3x"></i>
+								<strong data-to="807">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>  </p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+							<div class="counters-item">
+								<i class="fa fa-trophy fa-3x"></i>
+								<strong data-to="6454">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p></p>
+							</div>
+						</div>
+						<!-- end first count item -->
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <!--
+        End Some fun facts
+        ==================================== -->
+
+
+		<!--
+        Contact Us
+        ==================================== -->
+
+        <section id="contact" class="contact">
+    			<div class="container">
+    				<div class="row mb50">
+
+    					<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+    						<h2>Let’s Discuss</h2>
+    						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+    					</div>
+
+    					<div class="sec-sub-title text-center wow fadeInLeft animated" data-wow-duration="1000ms">
+    						<p><img class="send-mail-icon" src="img\send-mail.png" style=""></p>
+    					</div>
+
+    					<!-- contact address -->
+    					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+
+                <div class="contact-address">
+
+    						</div>
+    					</div>
+    					<!-- end contact address -->
+
+    					<!-- contact form -->
+    					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
+    						<div style="padding-left:10%"  class="contact-form">
+    							<h3></h3>
+    							<form action="#" id="contact-form">
+    								<div class="input-group name-email">
+    									<div class="input-field">
+    										<input type="text" name="name" id="name" placeholder="Name" class="form-control">
+    									</div>
+    									<div class="input-field">
+    										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
+    									</div>
+    								</div>
+    								<div class="input-group">
+    									<textarea rows="8" name="message" id="message" placeholder="Message" class="form-control"></textarea>
+    								</div>
+    								<div class="input-group">
+    									<input type="submit" style="background-color:#00CFFF; color:white; border-radius:5px; padding:1% ; " class="submits pull-right" value="Send message">
+    								</div>
+    							</form>
+    						</div>
+    					</div>
+    					<!-- end contact form -->
+
+    					<!-- footer social links -->
+    					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
+    						<ul class="footer-social">
+
+    							<li><a href="https://bit.ly/3h06rP5"><i class="fa fa-linkedin fa-2x"></i></a></li>
+    							<li><a href=""><i class="fa fa-instagram fa-2x"></i></a></li>
+    							<li><a href="https://bit.ly/3jUBPR7"><i class="fa fa-facebook fa-2x"></i></a></li>
+    						</ul>
+    					</div>
+    					<!-- end footer social links -->
+
+    				</div>
+    			</div>
+
+    			<!-- Google map
+    			<div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div>
+    			 End Google map -->
+
+    		</section>
+        <!--
+        End Contact Us
+        ==================================== -->
+
+
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="footer-single">
+							<img src="img/images/YouChieve logo.png" height="250px" width="220px" alt="">
+						</div>
+					</div>
+
+
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="footer-single">
+							<h6>Explore</h6>
+							<ul>
+								<li><a href="http://shorturl.at/iuEZ9">Instagram</a></li>
+								<li><a href="">Twitter</a></li>
+								<li><a href="https://bit.ly/3h06rP5">LinkedIn</a></li>
+								<li><a href="https://bit.ly/3jUBPR7">Facebook</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="footer-single">
+							<h6>Support</h6>
+							<ul>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Help Center</a></li>
+								<li><a href="#">Pressroom</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="copyright text-center">
+							Copyright © 2020. <a href="http://themefisher.com/">YouChieve</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+		<!-- jquery.mixitup.min -->
+        <script src="js/jquery.mixitup.min.js"></script>
+		<!-- jquery.parallax -->
+        <script src="js/jquery.parallax-1.1.3.js"></script>
+		<!-- jquery.countTo -->
+        <script src="js/jquery-countTo.js"></script>
+		<!-- jquery.appear -->
+        <script src="js/jquery.appear.js"></script>
+		<!-- Contact form validation -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+		<!-- Google Map -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+		<!-- jquery easing -->
+        <script src="js/jquery.easing.min.js"></script>
+		<!-- jquery easing -->
+        <script src="js/wow.min.js"></script>
+		<script>
+			var wow = new WOW ({
+				boxClass:     'wow',      // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset:       120,          // distance to the element when triggering the animation (default is 0)
+				mobile:       false,       // trigger animations on mobile devices (default is true)
+				live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script>
+		<!-- Custom Functions -->
+        <script src="js/custom.js"></script>
+
+		<script type="text/javascript">
+			$(function(){
+				/* ========================================================================= */
+				/*	Contact Form
+				/* ========================================================================= */
+
+				$('#contact-form').validate({
+					rules: {
+						name: {
+							required: true,
+							minlength: 2
+						},
+						email: {
+							required: true,
+							email: true
+						},
+						message: {
+							required: true
+						}
+					},
+					messages: {
+						name: {
+							required: "come on, you have a name don't you?",
+							minlength: "your name must consist of at least 2 characters"
+						},
+						email: {
+							required: "no email, no message"
+						},
+						message: {
+							required: "um...yea, you have to write something to send this form.",
+							minlength: "thats all? really?"
+						}
+					},
+					submitHandler: function(form) {
+						$(form).ajaxSubmit({
+							type:"POST",
+							data: $(form).serialize(),
+							url:"process.php",
+							success: function() {
+								$('#contact-form :input').attr('disabled', 'disabled');
+								$('#contact-form').fadeTo( "slow", 0.15, function() {
+									$(this).find(':input').attr('disabled', 'disabled');
+									$(this).find('label').css('cursor','default');
+									$('#success').fadeIn();
+								});
+							},
+							error: function() {
+								$('#contact-form').fadeTo( "slow", 0.15, function() {
+									$('#error').fadeIn();
+								});
+							}
+						});
+					}
+				});
+			});
+		</script>
+    </body>
+</html>

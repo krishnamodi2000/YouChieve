@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<style> *{margin:0;}
+
+
+body {
+  background-color: rgba(0,0,0);
+}
+.tagline{
+  font-family:  "Courier New";
+  color: white;
+  font-size:20px;
+}
+#instructions{
+  font-family:  "Courier New";
+  color: white;
+  font-size:10px;
+
+}
+#logo{
+  margin-top: -90px;
+  background-color: #95B1FF;
+}
+#soon{
+  font-family:"Courier New";
+  color: white;
+  font-size:50px;
+}
+#demo  {
+  margin-top: -90px;
+  font-family: 'Orbitron', "Courier New";
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: #95B1FF;
+}
+
+</style>
+
+</head>
+<body>
+
+<template>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAXCAYAAAD+4+QTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xOdTWsmQAAALfSURBVEhLrVVLaBRBEN2NoqirB1Hw4MGD+ImHYNQQdme2IdMz09s9CfgZD56CQREPgmJAEFn1JniSIIIaPHjRg168CYoEQYwa/AYvXvwgRhEFxQ9ZfdXTO3F3Zpc1yYNH73ZVvaqu/kymGdrDcB6Nlls6ZHE5brtquNvzlmrjbMHmwT6IX4b4n5hc3YMpG3nMEMzrXQ3RqzUJIlaKjtho3KYP25UDWMHP+gSWq0a7hFgyKy2D4Gh9AiK1zrjMDIwFy9D3L7GwK9+AD6Pf6gXGY/m+vsXGfXqwuTwVJ+DyIiXFdLbgqq1I/gDzFV0EV2MFT3VEUf8JiDyPkshfYD9jLGdMGkzKFbC/jIpQdywhlhtT60BLbkRJ4nZ9xni8u3vHAuOSKXK5EwU8NvbTZrp1MBbm0KajCJ6oScbVXZj1/Sg6wRbbkQp+r7TNKwU03wxZ9HY3XTwE77IcKWw/6LSc0hokOog9ehYncuV+/L9Ge4IEk0j8w8zfpziscJvdE3SWy+U2oz0FIcR8xkubbU8eqQpqkpArP9bMNaBOxOUQHRa0coRaauRr4bruIuzJ7zSRRoToU4wVOiRGhpCtvnupQAvO1Qs1Y546gBaiuNebgmChkWmINuYF62xPddlu4GH5B1DdMIRQZXoC+Ewgjva0A/8rSHQFK7uE8bztlLaTTSsTir6y4aTPviZXnyxP7SUbEg3E8wnKm+RD7xk68C5h5+o67tncTMHv3YDlfks4gFQZ3eyEjcvvWMV7CA+ZQs4mfKrk8jD2oO57kWTULi6/IuEHCN7G6NPNpzaFYThH25Jxmij0CT0jU21KI849juP6Rt8QeixT46pEYfSMPEo1aspJ6rfRa4Qs/N6mxxPlCK3kRNIQ85YRagoIDabEatIrgLeK5VJXQyesR7QbnebAMwL/M4j757jTl1UOGo/4UTwJxzGM4zg1F5jvrzLmlpH3/bWI3QPxfibEymg2k/kLGmgFj+yZMV8AAAAASUVORK5CYII
+</template>
+
+
+<div id="logo">
+
+<center><img src="img\images\YouChieve logo.png" alt="Logo" height="250" width="250"></center>
+</div>
+
+
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("23 September, 2020 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d :  " + hours + "h : "
+  + minutes + "m : " + seconds + "s ";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<div class="tagline"> <center>DROP IN YOUR TAGLINE!!</center></div>
+
+<script src="moto.js"></script>
+
+<div id="soon">
+<center>  COMING SOON...</center>
+</div>
+<div id="instructions">
+To Accelerate use  Up or Down Arrow Keys . To Rotate your Motorcycle use Left or Right Arrow Keys
+</div>
+</body>
+</html>
