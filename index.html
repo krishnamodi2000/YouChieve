@@ -26,17 +26,48 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
-<body>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+        <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 
-        <header class="nav-down responsive-nav hidden-lg hidden-md">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <section class="site-hero" style="background-image: url(images/image_1.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row intro-text align-items-center justify-content-center">
+                <div class="col-md-10 text-center pt-5">
+
+                    <h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Charles Anderson</strong></h1>
+                    <strong class="d-block text-white text-uppercase letter-spacing">and this is My Rezume</strong>
+
+                </div>
+            </div>
+        </div>
+    </section>
+ -->
+        <!-- <header class="nav-down responsive-nav hidden-lg hidden-md">
             <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-            </button>
+            </button> -->
             <!--/.navbar-header-->
-            <div id="main-nav" class="collapse navbar-collapse">
+            <!-- <div id="main-nav" class="collapse navbar-collapse">
                 <nav>
                     <ul class="nav navbar-nav">
                         <li><a href="#top">Home</a></li>
@@ -105,28 +136,28 @@
                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
             </ul>
-        </div>
+        </div> -->
 
-        <div class="slider">
+        <!-- <div class="slider">
             <div class="Modern-Slider content-section" id="top">
-                <!-- Item -->
+                
                 <div class="item item-1">
                     <div class="img-fill">
                     <div class="image"></div>
                     <div class="info">
                         <div>
                           <h1>YouChieve<br></h1>
-                          <!-- <p>Tagline</p> -->
+                          
                           <div class="white-button button">
                               <a href="#featured">Know More</a>
                           </div>
                         </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- // Item -->
                 <!-- Item -->
-                <div class="item item-2">
+                <!-- <div class="item item-2">
                     <div class="img-fill">
                         <div class="image"></div>
                         <div class="info">
@@ -141,10 +172,10 @@
                         </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- // Item -->
                 <!-- Item -->
-                <div class="item item-3">
+                <!-- <div class="item item-3">
                     <div class="img-fill">
                         <div class="image"></div>
                         <div class="info">
@@ -158,10 +189,10 @@
                         </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- // Item -->
-            </div>
-        </div>
+            <!-- </div>
+        </div> -->
 
         <!-- About Us -->
         <div class="page-content">
@@ -177,121 +208,34 @@
                         <div class="item">
                             <div class="image">
                                 <img src="img/featured_1.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
+                                
                             </div>
                             <div class="text-content">
-                                <h4>Lorem ipsum dolor</h4>
-                                <span>Proin et sapien</span>
+                                <h4><center>Vision</center></h4>
                                 <p>#1 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at massa turpis. Fusce ut pretium dui, vitae ullamcorper velit.</p>
                             </div>
                         </div>
                         <div class="item">
                             <div class="image">
                                 <img src="img/featured_2.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
+                            
                             </div>
                             <div class="text-content">
-                                <h4>Phasellus a lacus ac odio</h4>
-                                <span>Maximus</span>
+                                <h4><center>About Us</center></h4>
                                 <p>#2 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at massa turpis. Fusce ut pretium dui, vitae ullamcorper velit.</p>
                             </div>
                         </div>
                         <div class="item">
                             <div class="image">
                                 <img src="img/featured_3.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
+                                
                             </div>
                             <div class="text-content">
-                                <h4>Proin sit amet fringilla</h4>
-                                <span>Vulputate</span>
+                                <h4><center>Mission</center></h4>
                                 <p>#3 Aliquam mollis lacus eget metus efficitur lobortis. Suspendisse libero lacus, accumsan vitae commodo tristique, luctus gravida metus.</p>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_2.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>In volutpat augue lectus</h4>
-                                <span>Elementum</span>
-                                <p>#4 Aliquam mollis lacus eget metus efficitur lobortis. Suspendisse libero lacus, accumsan vitae commodo tristique, luctus gravida metus.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_1.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Cras commodo odio</h4>
-                                <span>Aliquam</span>
-                                <p>#5 Mauris lacinia pretium libero, ut tincidunt lacus molestie ornare. Phasellus a facilisis erat. Praesent eleifend nibh mauris, quis sodales lorem convallis pulvinar.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_3.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Sed at massa turpis</h4>
-                                <span>Curabitur</span>
-                                <p>#6 Vestibulum tincidunt ornare ligula vel molestie. Curabitur hendrerit mauris mollis ipsum vulputate rutrum. Phasellus luctus odio eget dui imperdiet.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_2.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Aliquam mollis lacus</h4>
-                                <span>Suspendisse</span>
-                                <p>#7 Suspendisse suscipit nulla sed nisl fermentum, auctor suscipit nunc rhoncus. Proin faucibus metus diam, nec hendrerit purus pharetra in.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_1.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Mauris lacinia pretium</h4>
-                                <span>Vestibulum</span>
-                                <p>#8 Suspendisse suscipit nulla sed nisl fermentum, auctor suscipit nunc rhoncus. Proin faucibus metus diam, nec hendrerit purus pharetra in.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <img src="img/featured_3.jpg" alt="">
-                                <div class="featured-button button">
-                                    <a href="#projects">Continue Reading</a>
-                                </div>
-                            </div>
-                            <div class="text-content">
-                                <h4>Proin sit amet fringilla erat</h4>
-                                <span>Convallis</span>
-                                <p>#9 Suspendisse suscipit nulla sed nisl fermentum, auctor suscipit nunc rhoncus. Proin faucibus metus diam, nec hendrerit purus pharetra in.</p>
-                            </div>
-                        </div>
-                    </div>
+                    </div> 
                 </div>
                 <br><br><br>
                 <div class="row">
@@ -303,9 +247,9 @@
                         <div class="text-content">
                             <p>In eget ipsum sed lorem vehicula luctus. Curabitur non dolor rhoncus, hendrerit justo sit amet, vestibulum turpis. Pellentesque id auctor tellus, vel ultricies augue. Duis condimentum aliquet blandit. Fusce rhoncus et eros ut pharetra. Phasellus convallis ultricies ligula ac gravida.</p>
                         </div>
-                        <div class="accent-button button">
+                        <!-- <div class="accent-button button">
                             <a href="#blog">Continue Reading</a>
-                        </div>
+                        </div> -->
                         <!-- <br><br><br> -->
                     </div>
 
@@ -338,13 +282,13 @@
                     <div class="masonry">
                         <div class="row">
                               <div class="overlay-trigger">
-                                <button>Overlay #01</button>
-                                <button>Overlay #02</button>
-                                <button>Overlay #03</button>
-                                <button>Overlay #04</button>
-                                <button>Overlay #05</button>
-                                <button>Overlay #06</button>
-                                <button>Overlay #07</button>
+                                <button>Humour</button>
+                                <button>Awareness</button>
+                                <button>Infotainment</button>
+                                <button>Mind Framers</button>
+                                <button>Sports</button>
+                                <button>Underrated Khel Gaye</button>
+                                <button>News</button>
                               </div>
                               <button class="overlay-close">Close Overlay</button>
                               <div class="overlay overlay01"></div>
@@ -393,17 +337,17 @@
                    <div class="card shadow-lg">
                     <img class="card-img-top" src="https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip" alt="Card image" style="width:100%; height: 70%;">
                     <div class="card-body">
-                      <h4 class="card-title text-center">Manage Books</h4>
+                      <h4 class="card-title text-center">Intern</h4>
                       <p class="card-text">Librarian can add, delete, update and view all the books.</p>
-                      <a href="#" class="btn btn-primary justify-content-center container-fluid shadow-lg">Intern</a>
+                      <a href="#" class="btn btn-primary btn-lg justify-content-center container-fluid shadow-lg">Intern</a>
                     </div>
                   </div>
                    <div class="card shadow-lg">
                     <img class="card-img-top" src="https://ak.picdn.net/shutterstock/videos/19525480/thumb/1.jpg" alt="Card image" style="width:100%; height: 70%;">
                     <div class="card-body">
-                      <h4 class="card-title text-center">Manage Users</h4>
+                      <h4 class="card-title text-center">Collaboration</h4>
                       <p class="card-text">Librarian can add, delete, update and view all the users.</p>
-                      <a href="#" class="btn btn-primary justify-content-center container-fluid shadow-lg">Collaborate</a>
+                      <a href="#" class="btn btn-primary btn-lg justify-content-center container-fluid shadow-lg">Collaborate</a>
                     </div>
                   </div>
                 </div>
@@ -420,10 +364,10 @@
                     <div class="tabs-content">
                         <div class="wrapper">
                             <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                              <li><a href="#tab1" class="active">July 2018</a></li>
-                              <li><a href="#tab2">June 2018</a></li>
-                              <li><a href="#tab3">May 2018</a></li>
-                              <li><a href="#tab4">April 2018</a></li>
+                              <li><a href="#tab1" class="active">July 2020</a></li>
+                              <li><a href="#tab2">Aug 2020</a></li>
+                              <li><a href="#tab3">Sep 2020</a></li>
+                              <li><a href="#tab4">Oct 2020</a></li>
                             </ul>
                             <section id="first-tab-group" class="tabgroup">
                                 <div id="tab1">
@@ -433,7 +377,7 @@
                                                 <img src="img/blog_1.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Integer ultrices augue</h4>
-                                                    <span>25 July 2018</span>
+                                                    <span>25 July 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -447,7 +391,7 @@
                                                 <img src="img/blog_2.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Cras commodo odio ut</h4>
-                                                    <span>16 July 2018</span>
+                                                    <span>16 July 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -461,7 +405,7 @@
                                                 <img src="img/blog_3.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Sed at massa turpis</h4>
-                                                    <span>10 July 2018</span>
+                                                    <span>10 July 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -479,7 +423,7 @@
                                                 <img src="img/blog_3.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Sed at massa turpis</h4>
-                                                    <span>30 June 2018</span>
+                                                    <span>30 Aug 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -493,7 +437,7 @@
                                                 <img src="img/blog_1.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Lorem ipsum dolor sit</h4>
-                                                    <span>24 June 2018</span>
+                                                    <span>24 Aug 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -507,7 +451,7 @@
                                                 <img src="img/blog_2.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Cras commodo odio ut</h4>
-                                                    <span>12 June 2018</span>
+                                                    <span>12 Aug 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -525,7 +469,7 @@
                                                 <img src="img/blog_2.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Cras commodo odio ut</h4>
-                                                    <span>26 May 2018</span>
+                                                    <span>26 Sep 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -539,7 +483,7 @@
                                                 <img src="img/blog_1.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Lorem ipsum dolor sit</h4>
-                                                    <span>22 May 2018</span>
+                                                    <span>22 Sep 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -553,7 +497,7 @@
                                                 <img src="img/blog_3.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Integer ultrices augue</h4>
-                                                    <span>8 May 2018</span>
+                                                    <span>8 Sep 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -571,7 +515,7 @@
                                                 <img src="img/blog_1.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Lorem ipsum dolor sit</h4>
-                                                    <span>26 April 2018</span>
+                                                    <span>26 Oct 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -585,7 +529,7 @@
                                                 <img src="img/blog_3.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Integer ultrices augue eu</h4>
-                                                    <span>24 April 2018</span>
+                                                    <span>24 Oct 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -599,7 +543,7 @@
                                                 <img src="img/blog_2.jpg" alt="">
                                                 <div class="text-content">
                                                     <h4>Cras commodo odio ut</h4>
-                                                    <span>20 April 2018</span>
+                                                    <span>20 Oct 2020</span>
                                                     <p>Nam vel egestas nisi. Nullam lobortis magna at enim venenatis luctus. Nam finibus, mauris eu dictum iaculis, dolor tortor cursus quam, in volutpat augue lectus sed magna. Integer mollis lorem quis ipsum maximus finibus.</p>
 
                                                     <div class="accent-button button">
@@ -615,6 +559,8 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Contact Us -->
             <section id="contact" class="content-section">
                 <div id="contact-content">
                     <div class="section-heading">
@@ -626,20 +572,16 @@
                     <div class="section-content">
                         <form id="contact" action="#" method="post">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                   <fieldset>
                                     <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
                                   </fieldset>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                   <fieldset>
                                     <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
                                   </fieldset>
                                 </div>
-                                 <div class="col-md-4">
-                                  <fieldset>
-                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
-                                  </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
@@ -657,7 +599,7 @@
                 </div>
             </section>
             <section class="footer">
-                <p>Copyright &copy; 2018. Design: <a href="http://templatemo.com/tm-518-sentra" target="_blank">Sentra</a> | Distribution: <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
+                <p>Copyright &copy; 2020. Design: <a href="#" target="_blank">YouChieve</a></p>
             </section>
         </div>
 

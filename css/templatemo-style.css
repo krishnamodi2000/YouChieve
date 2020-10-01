@@ -17,7 +17,7 @@ p {
 }
 
 .page-content {
-  width: 77.5%;
+  width: 100%;
   float: right;
 }
 
@@ -112,13 +112,13 @@ header {
     width: 100%;
 }
 
-.nav-up {
+/*.nav-up {
     top: -75px;
 }
-
+*/
 /* Responsive Navigation */
 
-.responsive-nav {
+/*.responsive-nav {
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -173,10 +173,10 @@ header {
   background-color: #232323;
 }
 
-
+*/
 /* Sidebar Style */
 
-.sidebar-navigation {
+/*.sidebar-navigation {
   width: 22.5%;
   float: left;
   height: 100%;
@@ -244,7 +244,7 @@ header {
   font-size: 15px;
   letter-spacing: 0.5px;
   text-transform: capitalize;
-}
+}*/
 .circle{
   margin-right: 5px;
   height: 10px;
@@ -726,7 +726,6 @@ header {
   position: relative;
   margin: 0px;
 }
-
 #featured .accent-button {
   margin-top: 30px;
 }
